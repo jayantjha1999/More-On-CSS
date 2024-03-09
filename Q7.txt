@@ -1,0 +1,37 @@
+-------------HTML--------------
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>JayantCard</title>
+  
+</head>
+<body>
+<div>
+<img class="img" src="./My2.jpg"
+alt=" PW SKills web development" />
+<p><b>Name:</b> Jayant Kumar<br> Software Engineer</p>
+</div>
+</body>
+-----------CSS-----------------
+
+
+.img{
+height: 200px;
+width: 300px;
+border-radius: 20px;
+}
+
+div {
+margin: 0 auto;
+
+background-color: #f8b12e;
+width: 300px;
+padding: 10px;
+border-radius: 20px;
+opacity: 0.5;
+}
+div:hover {
+opacity: 1;
+}
